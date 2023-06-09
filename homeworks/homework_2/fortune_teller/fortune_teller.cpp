@@ -41,7 +41,7 @@ void fortune_teller_func() {
     cin >> adjective[1];
 
     std::string res{};
-    res = name + ", the " + adjective[name.size() % adjective.size()] + " " + noun.at(season) + " " + ending[name.size() % ending.size()];
+    res = name + ", the " + adjective[name.size() % adjective.size()] + " " + noun.at(season) + " that " + ending[name.size() % ending.size()];
     
     cout << res << endl; 
 }
