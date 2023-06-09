@@ -22,9 +22,7 @@ void fortune_teller_func() {
         "finds errors quicker than the compiler",
         "is not afraid of C++ error messages"};
 
-
     std::array<std::string, 2> adjective{};
-
 
     cout << "Welcome to the fortune teller program!" << endl;
     cout << "Please enter your name:" << endl;
@@ -43,7 +41,7 @@ void fortune_teller_func() {
     cin >> adjective[1];
 
     std::string res{};
-    res = name + ", the" + adjective[name.size() % adjective.size()] + " " + noun.at(season) + " " + ending[name.size() % ending.size()];
+    res = name + ", the " + adjective[name.size() % adjective.size()] + " " + noun.at(season) + " " + ending[name.size() % ending.size()];
     
     cout << res << endl; 
 }
