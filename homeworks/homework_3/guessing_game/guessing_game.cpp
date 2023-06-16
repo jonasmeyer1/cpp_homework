@@ -41,7 +41,7 @@ void guessingGame() {
       cout << "Your number is too big. Try again!" << endl;
     };
   }
-  cout << "You've done it! You guessed the number " << secret_num << " in "
+  cout << "\nYou've done it! You guessed the number " << secret_num << " in "
        << num_guesses << " guesses!" << endl;
 }
 
